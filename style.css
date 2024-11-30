@@ -1,0 +1,57 @@
+body{
+   background-image: url('./images/doctor\ image.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    position: relative; /* To position the button inside this container */
+    height: 100vh; /* Full viewport height */
+    background-image: url('path/to/your-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow-btn {
+    position: absolute;
+    right: 20px; /* Position the button on the right side */
+    top: 75%;
+    transform: translateY(-50%); /* Centers the arrow vertically */
+    font-size: 30px; /* Adjust the size of the arrow */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%; /* Optional: makes the button round */
+}
+
+.arrow-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}
+.text-container {
+    position: absolute;
+    bottom: 250px; /* Adjust the distance from the bottom */
+    left: 20px; /* Optional: position text from the left side */
+    color: white;
+    text-align: left;
+}
+
+.heading {
+    margin: 0;
+    font-size: 36px;
+}
+
+.paragraph {
+    margin: 10px 0 0;
+    font-size: 18px;
+    text-align: left;
+}
+h1{
+    font-size: 150px;
+}
